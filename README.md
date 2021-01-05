@@ -10,6 +10,8 @@
 
 ### Visual Studio Code extensions
 
-[Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)  
-
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
+
+*[Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)  
+
+###### *To work properly in this project, after change any ```_x.scss``` file (e.g. ```_variables.scss```) save the ```styles.scss``` file to have the changes added to the ```styles.css``` file.  
