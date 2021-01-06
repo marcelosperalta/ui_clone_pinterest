@@ -13,6 +13,38 @@
   list-style: none;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 28px 15px 24px;
+}
+
+header h3 {
+  color: #e60023;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
 .heading {
   display: -webkit-box;
   display: -ms-flexbox;
