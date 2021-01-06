@@ -37,15 +37,39 @@ function exitScreen(index, exitDelay) {
 
 function setupAnimationCycle({ initialScreenIndex, timePerScreen, exitDelay}) {
 
-    enterScreen(initialScreenIndex);
+    // enterScreen(initialScreenIndex);
 
-    setTimeout(() => {
-        exitScreen(initialScreenIndex, exitDelay);
-    }, timePerScreen);
+    // setTimeout(() => {
+    //     exitScreen(initialScreenIndex, exitDelay);
+    // }, timePerScreen);
+
+    const cycleTime = timePerScreen + exitDelay;
+    let nextIndex = initialScreenIndex;
+
+    function nextCycle() {
+
+        const currentIndex = nextIndex;
+
+        enterScreen(currentIndex);
+
+        setTimeout(() => exitScreen(currentIndex, exitDelay), timePerScreen);
+
+        // 0, 1, 2, 3 > 4 screens to show
+        nextIndex = nextIndex >= grids.length - 1 ? 0 : nextIndex + 1;
+
+    }
+
+    // setInterval(() => {
+    //     console.log("Novo ciclo");
+    // }, cycleTime);
+
+    setInterval(nextCycle, cycleTime);
 
 }
 setupAnimationCycle({ 
+
     initialScreenIndex: 0,
     timePerScreen: 2000, //ms
     exitDelay: 200 * 7 //ms
+
 });
