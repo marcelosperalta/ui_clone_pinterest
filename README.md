@@ -1,5 +1,12 @@
 :link: https://marcelosperalta.github.io/ui_clone_pinterest/
 
+<div align="center">
+    <img src="./readme/logo_html.png" width="70">
+    <img src="./readme/logo_css.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_javascript.png" width="70">
+</div>
+
 # UI Clone - Pinterest
 
 [freeCodeCamp - Take Home Projects - Build a Pinterest Clone](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/build-a-pinterest-clone)  
