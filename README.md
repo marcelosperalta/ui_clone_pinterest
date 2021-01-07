@@ -17,8 +17,6 @@
 
 # UI Clone - Pinterest
 
-[freeCodeCamp - Take Home Projects - Build a Pinterest Clone](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/build-a-pinterest-clone)  
-
 [Rocketseat - Recriando home do Pinterest com HTML, Sass e JavaScript | UI Clone #16](https://www.youtube.com/watch?v=XdqD8qi44Cg)  
 
 ## Tools
